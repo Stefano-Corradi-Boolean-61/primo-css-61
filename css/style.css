@@ -1,0 +1,113 @@
+
+/* 
+  GENERAL 
+*/
+
+
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* selettore tag */
+h1{
+  color: blue;
+  text-align: center;
+}
+
+h2{
+  text-align: right;
+}
+
+/* non voglio i link sottolieati */
+a{
+  text-decoration: none;
+  color: #c13352;
+  text-transform: uppercase;
+}
+
+/* 
+  UTITLIES 
+*/
+
+.sottolineato{
+  text-decoration: underline;
+}
+
+/* selettore class  */
+.testo-principale{
+  color: rgb(219, 94, 94);
+}
+
+.main-box{
+  font-family:cursive;
+  background-color: rgba(245, 126, 126, .2);
+  width: 500px;
+  height: 300px;
+  color: rgb(206, 21, 46);
+  /* border: spessore tipo colore */
+  border: 1px solid black;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* selettore ID */
+#testo-con-id{
+  color: #33C185;
+}
+#altro-testo-con-id{
+  color: #c13352;
+}
+/* 
+  HEADER 
+*/
+
+/* 
+  MAIN 
+*/
+main{
+  padding-bottom: 100px;
+}
+.fattoria{
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  background-image: url('../img/polli.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box{
+  width: 300px;
+  height: 200px;
+  margin: 20px 0;
+  background-color: #c13352;
+}
+
+.box.primo{
+  border: 5px solid green;
+  border-bottom: 2px solid blueviolet;
+  padding: 20px;
+}
+
+.box.secondo{
+  border-radius: 5px;
+}
+
+.esempio-inline span{
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  background-color: yellow;
+}
+
+/* 
+  FOOTER 
+*/
