@@ -108,6 +108,32 @@ main{
   background-color: yellow;
 }
 
-/* 
-  FOOTER 
-*/
+.lista, .lista2, .lista3, .lista4{
+  margin: 100px;
+}
+
+/* seleziono il primo figlio */
+.lista li:first-child{
+  color: red;
+}
+
+/* seleziono il quarto figlio */
+.lista li:nth-child(4){
+  color: #33C185;
+}
+
+/*seleziono i multipli di 3 a partire dal quinto elemento */
+.lista2 li:nth-child(3n + 5){
+  color: red;
+}
+
+/* seleziono solo i dispari */
+.lista3 li:nth-child(odd){
+  color: red;
+}
+
+/* seleziono solo i pari */
+.lista4 li:nth-child(even){
+  color: red;
+}
+
